@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: LikeButton(
           size: 80,
           likeCount: numberOfLikes,
-          countPostion: CountPostion.bottom,
+          countPostion: CountPostion.bottom,likeBuilder: ,
         ),
       ),
     );
