@@ -15,7 +15,10 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ANIMATED LIKE BUTTON',style: TextStyle(),),
+        title: const Text(
+          'ANIMATED LIKE BUTTON',
+          style: TextStyle(),
+        ),
         centerTitle: true,
       ),
       body: const Center(
