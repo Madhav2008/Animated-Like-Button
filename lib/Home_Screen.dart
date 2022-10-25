@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('ANIMATED LIKE BUTTON'),
-        titleSpacing: 3,centerTitle: ,
+        titleSpacing: 3,centerTitle: true,
       ),
       body: Center(),
     );
