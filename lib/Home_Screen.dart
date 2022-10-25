@@ -11,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int numberOfLikes =
+  int numberOfLikes = 120
   @override
   Widget build(BuildContext context) {
     return Scaffold(
