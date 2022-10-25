@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
+import 'package:like_button/like_button.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
         titleSpacing: 3,
         centerTitle: true,
       ),
-      body: const Center(child: ,),
+      body: const Center(child: LikeButton(),),
     );
   }
 }
