@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
           size: 80,
           likeCount: numberOfLikes,
           countPostion: CountPostion.bottom,
-          countBuilder: (count,) {
+          countBuilder: (count, isLiked) {
             return Text(data);
           },
         ),
