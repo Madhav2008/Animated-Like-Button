@@ -29,7 +29,10 @@ class _HomeScreenState extends State<HomeScreen> {
         child: LikeButton(
           size: 80,
           likeCount: numberOfLikes,
-          countPostion: CountPostion.bottom,countDecoration: (count){return},
+          countPostion: CountPostion.bottom,
+          countDecoration: (count) {
+            return Text(data);
+          },
         ),
       ),
     );
