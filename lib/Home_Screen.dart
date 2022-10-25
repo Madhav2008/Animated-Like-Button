@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
           likeCount: numberOfLikes,
           countPostion: CountPostion.bottom,
           likeBuilder: ((isTapped) {
-            return Icon(Icons.bookmark);
+            return Icon(Icons.bookmark,);
           }),
         ),
       ),
