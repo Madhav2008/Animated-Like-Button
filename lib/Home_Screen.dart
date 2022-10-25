@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         centerTitle: true,
       ),
-      body: const Center(
+      body: Center(
         child: LikeButton(
           size: 80,
           likeCount: numberOfLikes,
