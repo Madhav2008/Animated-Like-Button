@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
           countBuilder: (count, isLiked, text) {
             return Text(
               text,
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(color: Colors.black,),
             );
           },
         ),
