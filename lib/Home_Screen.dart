@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
         titleSpacing: 3,
         centerTitle: true,
       ),
-      body: Center(),
+      body: const Center(),
     );
   }
 }
