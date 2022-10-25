@@ -34,9 +34,9 @@ class _HomeScreenState extends State<HomeScreen> {
             return Text(
               text,
               style: TextStyle(
-                color: Colors.black,fontSize: 24,
+                color: Colors.black,
+                fontSize: 24,
               ),
-              
             );
           },
         ),
