@@ -12,7 +12,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int numberOfLikes = 120;
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: const Center(
         child: LikeButton(
           size: 80,
-          likeCount: 120,
+          likeCount: numberOfLikes,
           countPostion: CountPostion.bottom,
         ),
       ),
