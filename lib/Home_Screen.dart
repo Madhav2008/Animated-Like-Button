@@ -30,7 +30,9 @@ class _HomeScreenState extends State<HomeScreen> {
           size: 80,
           likeCount: numberOfLikes,
           countPostion: CountPostion.bottom,
-          likeBuilder: ((isLiked) {return Icon(icon)}),
+          likeBuilder: ((isLiked) {
+            return Icon(icon);
+          }),
         ),
       ),
     );
