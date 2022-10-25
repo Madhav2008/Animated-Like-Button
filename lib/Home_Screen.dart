@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text(
           'ANIMATED LIKE BUTTON',
-          style: TextStyle(letterSpacing: 3),
+          style: TextStyle(letterSpacing: 3,),
         ),
         centerTitle: true,
       ),
